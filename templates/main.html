@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="../static/style.css" rel="stylesheet" type="text/css">
+<title>Typical Climate</title>
+</head>
+<body>
+    <div id="element2">
+        {% for name, pics in data %}
+            <article>
+                <h1 style="text-align: center">{{ name }}</h1>
+                <div class="imgs">
+                    {% for pic in pics %}
+                        <div class="imgbox">
+                            <img class="igimg" src="{{ pic }}" alt="hej" >
+                        </div>
+                    {% endfor  %}
+                </div>
+            </article>
+            {% endfor %}
+    </div>
+</body>
+</html>

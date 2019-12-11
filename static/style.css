@@ -1,0 +1,17 @@
+.igimg {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.imgbox {
+    max-width: 16%;
+    margin: 1%;
+    align-items: center;
+    display: flex;
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
